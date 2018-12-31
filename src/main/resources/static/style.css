@@ -1,0 +1,106 @@
+/*New Day by Payal Dhar (http://writeside.net)*/
+
+body{
+background:#D3B497;
+color:#574C39;
+font:0.9em Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+color:#8F8166;
+text-decoration:underline;
+}
+
+a:hover{
+color:#574C39;
+text-decoration:none;
+}
+
+#wrapper{
+width:800px;
+margin: 0 auto;
+}
+
+#nav {
+height:25px;
+}
+
+#nav ul{
+margin-right:25px;
+}
+
+#nav ul li{
+list-style:none;
+float:right;
+padding:0 10px;
+font-weight:600;
+}
+
+#header{
+height:244px;
+background:url(img/banner.jpg) center no-repeat;
+}
+
+#header-h1{
+padding:100px 35px 1px 350px;
+margin:0;
+text-align:right;
+font-weight:normal;
+font-variant:small-caps;
+}
+
+#showcase{
+height:250px;
+margin:10px;
+text-align:center;
+background:url(img/highlight.jpg) left no-repeat;
+}
+
+#showcase p{
+text-align:right;
+font:1.9em 'Trebuchet MS', Arial, Helvetica, sans-serif;
+padding:0;
+margin:0 10px 0 300px;
+}
+
+
+#top{
+width:780px;
+height:30px;
+margin:0 auto;
+background:url(img/top.jpg) top center no-repeat;
+}
+
+#text{
+padding-top:10px;
+width:780px;
+background:url(img/back.jpg) repeat-y;
+margin:0 auto;
+}
+
+#text p{
+padding: 5px 30px 5px 20px;
+line-height:1.5em;
+}
+
+#text p.first:first-letter{
+font-size:3.3em;
+}
+
+#text h1{
+padding:0 20px;
+font:1.2em 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+#footer{
+background:url(img/bottom.jpg) center no-repeat;
+height:50px;
+margin-top:-16px !important;
+margin-top:0px;
+}
+
+#footer p{
+padding:5px 30px;
+font-size:0.75em;
+text-align:center;
+}
