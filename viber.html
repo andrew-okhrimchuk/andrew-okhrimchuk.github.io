@@ -36,17 +36,21 @@
         var superHeroesText = request.response; // get the string from the response
         var superHeroes = JSON.parse(superHeroesText); // convert it to an object
 
-        populateHeader(superHeroes);
-        showHeroes(superHeroes);
+        populateHeader(superHeroes, superHeroesText);
+        //showHeroes(superHeroes);
     }
-    function populateHeader(jsonObj) {
+    function populateHeader(jsonObj, superHeroesText) {
         var myH1 = document.createElement('h1');
         myH1.textContent = jsonObj['squadName'];
-        header.appendChild(myH1);
+       // header.appendChild(myH1);
 
         var myPara = document.createElement('p');
         myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-        header.appendChild(myPara);
+      //  header.appendChild(myPara);
+
+        var div = document.createElement('div');
+        div.textContent = superHeroesText;
+        header.appendChild(div);
     }
 
     function showHeroes(jsonObj) {
