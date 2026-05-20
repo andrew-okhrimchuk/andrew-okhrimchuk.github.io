@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,6 +25,7 @@
         
         
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/refactor-beauty.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -34,7 +35,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body data-i18n-page="titleBlog">
         
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
@@ -48,21 +49,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item dropdown submenu active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-                            </ul>
+                        <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav.home">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html" data-i18n="nav.about">Про нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html" data-i18n="nav.portfolio">Сертифікати</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pay.html" data-i18n="nav.pay">Оплата</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public_offer.pdf" data-i18n="nav.offer">Публічна оферта</a></li>
+                        <li class="nav-item gh-lang-switch" role="group" data-i18n-aria="nav.langLabel">
+                            <button type="button" class="gh-lang-btn is-active" data-lang="uk">UA</button>
+                            <button type="button" class="gh-lang-btn" data-lang="en">EN</button>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -73,8 +69,8 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h2>Blog</h2>
-                    <p>Read the news</p>
+                    <h2 data-i18n="blog.bannerTitle">Блог</h2>
+                    <p data-i18n="blog.bannerSub">Новини та статті</p>
                 </div>
             </div>
         </section>
@@ -338,7 +334,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <!-- Extra plugin css -->
         <script src="vendors/counterup/jquery.waypoints.min.js"></script>
         <script src="vendors/counterup/jquery.counterup.min.js"></script> 
@@ -354,5 +349,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <script src="js/circle-active.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/i18n/translations.js"></script>
+        <script src="js/i18n/i18n.js"></script>
+        <script src="js/refactor-enhancements.js"></script>
     </body>
 </html>

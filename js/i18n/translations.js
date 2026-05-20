@@ -1,0 +1,243 @@
+/* global window */
+window.GH_TRANSLATIONS = {
+  uk: {
+    meta: {
+      siteName: "Okhrimchuk and family",
+      titleHome: "Головна",
+      titleAbout: "Про нас",
+      titleContact: "Контакти",
+      titlePay: "Оплата",
+      titlePortfolio: "Сертифікати",
+      titleService: "Сервіс",
+      titleBlog: "Блог",
+      titleOffer: "Публічна оферта"
+    },
+    nav: {
+      home: "Головна",
+      about: "Про нас",
+      portfolio: "Сертифікати",
+      contact: "Контакти",
+      pay: "Оплата",
+      offer: "Публічна оферта",
+      langLabel: "Мова сайту"
+    },
+    index: {
+      slide1Title: "Оберіть архітектуру<br />вашого стартапу",
+      slide1Sub: "Організуємо рекламну кампанію? — Це до нас!",
+      slide1Btn: "Зв'язатися з нами",
+      slide2Title: "IT, бухгалтерія<br />і реклама — в одній команді",
+      slide2Sub: "Беремо рутину на себе — ви зростаєте швидше",
+      slide2Btn: "Дізнатися більше",
+      slide3Title: "Від ідеї до запуску<br />— супроводжуємо на кожному кроці",
+      slide3Sub: "Реклама, звітність і розробка під ключ",
+      slide3Btn: "Наші сертифікати",
+      featuresTag: "Відкрийте для себе можливості",
+      featuresTitle: "Ми молоді, але",
+      featuresTitleAccent: "сміливі",
+      f1Title: "Гнучкі рішення архітектури Java-додатків",
+      f1Text: "Сучасні додатки: мікросервіси, Docker, REST, Java, Git, SQL, Hibernate, Maven та повний цикл розробки.",
+      f2Title: "Аутсорсинг звітності та обліку",
+      f2Text: "Відстежуємо зміни законодавства України. Супровід ФОП і юросіб, ЄП, ПДВ, квартальна та місячна звітність.",
+      f3Title: "Рекламні заходи",
+      f3Text: "Виставки, ТВ і радіо, YouTube-ролики, авто-шоу — популяризуємо ваш продукт разом із партнерами.",
+      more: "Детальніше",
+      stat1: "років досвіду в IT",
+      stat2: "успішних проєктів",
+      stat3: "годин на старт задачі",
+      stat4: "уваги до деталей",
+      marquee1: "Java та мікросервіси",
+      marquee2: "Бухгалтерія та звітність",
+      marquee3: "Реклама та заходи",
+      marquee4: "Docker та DevOps",
+      marquee5: "Консультації 24/7",
+      stepsTag: "Як ми працюємо",
+      stepsTitle: "Три кроки до",
+      stepsTitleAccent: "результату",
+      step1Title: "Обговорюємо задачу",
+      step1Text: "Уточнюємо цілі, терміни й бюджет — без шаблонних відповідей.",
+      step2Title: "Запускаємо рішення",
+      step2Text: "IT, облік чи реклама — підключаємо потрібних фахівців одразу.",
+      step3Title: "Супроводжуємо зростання",
+      step3Text: "Залишаємось на зв'язку й масштабуємо проєкт разом із вами.",
+      ctaTitle: "Готові оживити ваш проєкт?",
+      ctaText: "Напишіть нам — відповімо протягом робочого дня та запропонуємо план дій.",
+      ctaBtn: "Написати нам",
+      ctaLink: "Способи оплати →",
+      footerInstagram: "Instagram",
+      footerSubscribe: "Підписка на розсилку",
+      footerEmail: "Ваша e-mail адреса",
+      footerSubscribeBtn: "Підписатися",
+      footerCopyright: "Усі права захищені | Шаблон: Охримчук Андрій"
+    },
+    about: {
+      bannerTitle: "Про нас",
+      bannerSub: "Познайомтесь із командою",
+      discover: "Відкрийте можливості",
+      challengeTitle: "Ми не ховаємось — приймаємо виклик",
+      challengeText: "Якщо не я, то хто? Якщо не зараз, то коли? Якщо я — не для себе, то хто для мене? Але якщо лише для себе — навіщо я потрібен? © Гіллель",
+      videoLink: "Подивіться, як ми працюємо",
+      testimonialTitle: "«Просто професіонали»",
+      testimonialText: "Java-розробка повноцінного вебзастосунку з контролем версій, модульними тестами, логуванням і реляційною БД.",
+      testimonialRole: "Java-розробник"
+    },
+    contact: {
+      bannerTitle: "Контакти",
+      bannerSub: "Зв'яжіться з нами",
+      sayHello: "Привітайтеся",
+      touchTitle: "Напишіть або зателефонуйте",
+      touchText: "Ми відповімо на ваш запит і допоможемо обрати оптимальне рішення.",
+      callUs: "Зателефонуйте",
+      name: "Ім'я",
+      email: "Email",
+      subject: "Тема*",
+      message: "Повідомлення",
+      send: "Надіслати",
+      officeTitle: "Офіс у Києві",
+      officeCountry: "Україна"
+    },
+    pay: {
+      banner1: "Вартість роботи наших front-end та back-end спеціалістів — 500 грн/годину.",
+      banner2: "Для переходу на сторінку оплати введіть суму",
+      amount: "Сума",
+      submit: "Оплатити",
+      officeTitle: "Офіс у Києві",
+      officeCountry: "Україна"
+    },
+    portfolio: {
+      bannerTitle: "Сертифікати",
+      bannerSub: "Наші досягнення"
+    },
+    service: {
+      bannerTitle: "Сервіс",
+      bannerSub: "Що ми пропонуємо"
+    },
+    blog: {
+      bannerTitle: "Блог",
+      bannerSub: "Новини та статті"
+    },
+    offer: {
+      bannerTitle: "Публічна оферта",
+      bannerSub: "Умови співпраці"
+    }
+  },
+  en: {
+    meta: {
+      siteName: "Okhrimchuk and family",
+      titleHome: "Home",
+      titleAbout: "About us",
+      titleContact: "Contact",
+      titlePay: "Payment",
+      titlePortfolio: "Certificates",
+      titleService: "Services",
+      titleBlog: "Blog",
+      titleOffer: "Public offer"
+    },
+    nav: {
+      home: "Home",
+      about: "About us",
+      portfolio: "Certificates",
+      contact: "Contact",
+      pay: "Payment",
+      offer: "Public offer",
+      langLabel: "Site language"
+    },
+    index: {
+      slide1Title: "Choose the architecture<br />for your startup",
+      slide1Sub: "Need an ad campaign? — We're here for you!",
+      slide1Btn: "Contact us",
+      slide2Title: "IT, accounting<br />and marketing — one team",
+      slide2Sub: "We handle the routine — you grow faster",
+      slide2Btn: "Learn more",
+      slide3Title: "From idea to launch<br />— we guide every step",
+      slide3Sub: "Ads, reporting, and development — turnkey",
+      slide3Btn: "Our certificates",
+      featuresTag: "Discover what we offer",
+      featuresTitle: "We're young but",
+      featuresTitleAccent: "bold",
+      f1Title: "Flexible Java application architecture",
+      f1Text: "Modern apps: microservices, Docker, REST, Java, Git, SQL, Hibernate, Maven, and full development lifecycle.",
+      f2Title: "Reporting and accounting outsourcing",
+      f2Text: "We track changes in Ukrainian law. Support for sole proprietors and companies, VAT, quarterly and monthly reporting.",
+      f3Title: "Marketing events",
+      f3Text: "Exhibitions, TV and radio, YouTube videos, auto shows — we promote your product with partners.",
+      more: "Learn more",
+      stat1: "years of IT experience",
+      stat2: "successful projects",
+      stat3: "hours to start a task",
+      stat4: "attention to detail",
+      marquee1: "Java & microservices",
+      marquee2: "Accounting & reporting",
+      marquee3: "Marketing & events",
+      marquee4: "Docker & DevOps",
+      marquee5: "Consulting 24/7",
+      stepsTag: "How we work",
+      stepsTitle: "Three steps to",
+      stepsTitleAccent: "results",
+      step1Title: "Discuss your goals",
+      step1Text: "We clarify scope, timeline, and budget — no generic replies.",
+      step2Title: "Launch the solution",
+      step2Text: "IT, accounting, or marketing — we assign the right experts immediately.",
+      step3Title: "Support your growth",
+      step3Text: "We stay in touch and scale the project with you.",
+      ctaTitle: "Ready to bring your project to life?",
+      ctaText: "Write to us — we'll reply within one business day with a clear action plan.",
+      ctaBtn: "Get in touch",
+      ctaLink: "Payment options →",
+      footerInstagram: "Instagram",
+      footerSubscribe: "Newsletter",
+      footerEmail: "Your e-mail address",
+      footerSubscribeBtn: "Subscribe",
+      footerCopyright: "All rights reserved | Template: Andriy Okhrimchuk"
+    },
+    about: {
+      bannerTitle: "About us",
+      bannerSub: "Get to know our team",
+      discover: "Discover the features",
+      challengeTitle: "We don't hide — we face the challenge",
+      challengeText: "If not me, then who? If not now, then when? If I am not for myself, who will be? But if only for myself, what am I here for? © Hillel",
+      videoLink: "See how we work",
+      testimonialTitle: "\"Simply professionals\"",
+      testimonialText: "Full-stack Java web development with version control, modular tests, logging, and a relational database.",
+      testimonialRole: "Java developer"
+    },
+    contact: {
+      bannerTitle: "Contact",
+      bannerSub: "Get in touch",
+      sayHello: "Say hello",
+      touchTitle: "Email or call us",
+      touchText: "We'll respond to your request and help you choose the best solution.",
+      callUs: "Call us",
+      name: "Name",
+      email: "Email",
+      subject: "Subject*",
+      message: "Message",
+      send: "Send",
+      officeTitle: "Kyiv office",
+      officeCountry: "Ukraine"
+    },
+    pay: {
+      banner1: "Our front-end and back-end specialists charge UAH 500/hour.",
+      banner2: "Enter the amount to proceed to payment",
+      amount: "Amount",
+      submit: "Pay",
+      officeTitle: "Kyiv office",
+      officeCountry: "Ukraine"
+    },
+    portfolio: {
+      bannerTitle: "Certificates",
+      bannerSub: "Our achievements"
+    },
+    service: {
+      bannerTitle: "Services",
+      bannerSub: "What we offer"
+    },
+    blog: {
+      bannerTitle: "Blog",
+      bannerSub: "News and articles"
+    },
+    offer: {
+      bannerTitle: "Public offer",
+      bannerSub: "Terms of cooperation"
+    }
+  }
+};

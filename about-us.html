@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,7 @@
         <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
         
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/refactor-beauty.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,7 +34,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body data-i18n-page="titleAbout">
         
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
@@ -47,12 +48,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Домой</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about-us.html">о нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav.home">Головна</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="about-us.html" data-i18n="nav.about">Про нас</a></li>
 <!--
                         <li class="nav-item"><a class="nav-link" href="service.html">Сервис</a></li>
 -->
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Сертификаты</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html" data-i18n="nav.portfolio">Сертифікати</a></li>
 <!--
                         <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -65,11 +66,13 @@
                             </ul>
                         </li>
 -->
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Контакт</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pay.html">Оплата</a></li>
-                        <li class="nav-item"><a class="nav-link" href="public_offer.pdf">Публічна оферта</a></li>
-
-
+                        <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pay.html" data-i18n="nav.pay">Оплата</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public_offer.pdf" data-i18n="nav.offer">Публічна оферта</a></li>
+                        <li class="nav-item gh-lang-switch" role="group" data-i18n-aria="nav.langLabel">
+                            <button type="button" class="gh-lang-btn is-active" data-lang="uk">UA</button>
+                            <button type="button" class="gh-lang-btn" data-lang="en">EN</button>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -80,8 +83,8 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h2>О нас</h2>
-                    <p>Get to know us</p>
+                    <h2 data-i18n="about.bannerTitle">Про нас</h2>
+                    <p data-i18n="about.bannerSub">Познайомтесь із командою</p>
                 </div>
             </div>
         </section>
@@ -95,13 +98,12 @@
                         <div class="challange_text_inner">
                             <div class="l_title">
                                 <img src="img/icon/title-icon.png" alt="">
-                                <h6>Discover the features</h6>
-                                <h2>Мы не прячемся, мы стоим перед вызовом</h2>
+                                <h6 data-i18n="about.discover">Відкрийте можливості</h6>
+                                <h2 data-i18n="about.challengeTitle">Ми не ховаємось — приймаємо виклик</h2>
                             </div>
-                            <p>Если не я, то кто же? Если не сейчас, то когда? Если я — не для себя, то кто же для меня? Но если я — только для себя, то зачем я нужен?
-                                © Гиллель</p>
+                            <p data-i18n="about.challengeText">Якщо не я, то хто? Якщо не зараз, то коли? Якщо я — не для себе, то хто для мене? Але якщо лише для себе — навіщо я потрібен? © Гіллель</p>
                             <div class="c_video">
-                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png" alt="">See how we work </a>
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png" alt=""><span data-i18n="about.videoLink">Подивіться, як ми працюємо</span></a>
                             </div>
                         </div>
                     </div>
@@ -121,15 +123,15 @@
                 <div class="testimonials_slider owl-carousel">
                     <div class="item">
                         <div class="testi_item">
-                            <h3>“Просто профессионалы”</h3>
-                            <p>Java-разработка полноценного веб приложения в системе контроля версий, с модульными тестами, логированием и хранением в реляционной базе данных </p>
+                            <h3 data-i18n="about.testimonialTitle">«Просто професіонали»</h3>
+                            <p data-i18n="about.testimonialText">Java-розробка повноцінного вебзастосунку з контролем версій, модульними тестами, логуванням і реляційною БД.</p>
                             <div class="media">
                                 <div class="d-flex">
                                     <img class="rounded-circle" src="img/testimonials/testi-1.jpg" alt="">
                                 </div>
                                 <div class="media-body">
                                     <h4>Охримчук Андрей</h4>
-                                    <h5>Java-developer</h5>
+                                    <h5 data-i18n="about.testimonialRole">Java-розробник</h5>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +335,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
         <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <!-- Extra plugin css -->
         <script src="vendors/counterup/jquery.waypoints.min.js"></script>
         <script src="vendors/counterup/jquery.counterup.min.js"></script> 
@@ -344,5 +345,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/smoothscroll.js"></script>
         
         <script src="js/theme.js"></script>
+        <script src="js/i18n/translations.js"></script>
+        <script src="js/i18n/i18n.js"></script>
+        <script src="js/refactor-enhancements.js"></script>
     </body>
 </html>
