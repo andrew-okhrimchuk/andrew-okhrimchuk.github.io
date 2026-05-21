@@ -34,10 +34,10 @@ window.GH_TRANSLATIONS = {
       featuresTag: "Відкрийте для себе можливості",
       featuresTitle: "Ми молоді, але",
       featuresTitleAccent: "сміливі",
-      f1Title: "Гнучкі рішення архітектури Java-додатків",
-      f1Text: "Сучасні додатки: мікросервіси, Docker, REST, Java, Git, SQL, Hibernate, Maven та повний цикл розробки.",
-      f2Title: "Впровадження та пристосування SAP",
-      f2Text: "Запуск і налаштування SAP ERP/S/4HANA під ваш бізнес: модулі FI, CO, MM, SD, ABAP-розширення, міграція даних і супровід користувачів.",
+      f1Title: "Впровадження та пристосування SAP",
+      f1Text: "Запуск і налаштування SAP ERP/S/4HANA під ваш бізнес: модулі FI, CO, MM, SD, ABAP-розширення, міграція даних і супровід користувачів.",
+      f2Title: "Гнучкі рішення архітектури Java-додатків",
+      f2Text: "Сучасні додатки: мікросервіси, Docker, REST, Java, Git, SQL, Hibernate, Maven та повний цикл розробки.",
       more: "Детальніше",
       stat1: "років досвіду в IT",
       stat2: "успішних проєктів",
@@ -142,8 +142,7 @@ window.GH_TRANSLATIONS = {
       bannerTitle: "Публічна оферта",
       bannerSub: "Умови співпраці з IT та SAP",
       docTitle: "Договір публічної оферти з надання IT- та SAP-послуг",
-      docEdition: "Редакція від 21.05.2026",
-      pdfLink: "Завантажити PDF (попередня версія)"
+      docEdition: "Редакція від 21.05.2026"
     }
   },
   en: {
@@ -180,10 +179,10 @@ window.GH_TRANSLATIONS = {
       featuresTag: "Discover what we offer",
       featuresTitle: "We're young but",
       featuresTitleAccent: "bold",
-      f1Title: "Flexible Java application architecture",
-      f1Text: "Modern apps: microservices, Docker, REST, Java, Git, SQL, Hibernate, Maven, and full development lifecycle.",
-      f2Title: "SAP implementation & customization",
-      f2Text: "Deploy and tailor SAP ERP/S/4HANA for your business: FI, CO, MM, SD modules, ABAP extensions, data migration, and user support.",
+      f1Title: "SAP implementation & customization",
+      f1Text: "Deploy and tailor SAP ERP/S/4HANA for your business: FI, CO, MM, SD modules, ABAP extensions, data migration, and user support.",
+      f2Title: "Flexible Java application architecture",
+      f2Text: "Modern apps: microservices, Docker, REST, Java, Git, SQL, Hibernate, Maven, and full development lifecycle.",
       more: "Learn more",
       stat1: "years of IT experience",
       stat2: "successful projects",
@@ -288,8 +287,7 @@ window.GH_TRANSLATIONS = {
       bannerTitle: "Public offer",
       bannerSub: "IT and SAP cooperation terms",
       docTitle: "Public offer agreement for IT and SAP services",
-      docEdition: "Edition of 21 May 2026",
-      pdfLink: "Download PDF (previous version)"
+      docEdition: "Edition of 21 May 2026"
     }
   }
 };
