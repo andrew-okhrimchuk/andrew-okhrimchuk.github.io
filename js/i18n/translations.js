@@ -75,8 +75,8 @@ window.GH_TRANSLATIONS = {
     about: {
       bannerTitle: "Про нас",
       bannerSub: "Познайомтесь із командою",
-      discover: "Відкрийте можливості",
-      challengeTitle: "Ми не ховаємось — приймаємо виклик",
+      discover: "Наш підхід",
+      challengeTitle: "IT, SAP і облік — одна команда, один контакт",
       challengeText: "Якщо не я, то хто? Якщо не зараз, то коли? Якщо я — не для себе, то хто для мене? Але якщо лише для себе — навіщо я потрібен? © Гіллель",
       videoLink: "Подивіться, як ми працюємо",
       testimonialTitle: "«Просто професіонали»",
@@ -209,8 +209,8 @@ window.GH_TRANSLATIONS = {
     about: {
       bannerTitle: "About us",
       bannerSub: "Get to know our team",
-      discover: "Discover the features",
-      challengeTitle: "We don't hide — we face the challenge",
+      discover: "Our approach",
+      challengeTitle: "IT, SAP, and accounting — one team, one contact",
       challengeText: "If not me, then who? If not now, then when? If I am not for myself, who will be? But if only for myself, what am I here for? © Hillel",
       videoLink: "See how we work",
       testimonialTitle: "\"Simply professionals\"",
