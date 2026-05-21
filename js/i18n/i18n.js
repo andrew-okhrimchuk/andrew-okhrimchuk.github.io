@@ -64,6 +64,11 @@
       if (val != null) el.setAttribute("aria-label", val);
     });
 
+    document.querySelectorAll("[data-i18n-title]").forEach(function (el) {
+      var val = translate(el.getAttribute("data-i18n-title"), lang);
+      if (val != null) el.setAttribute("title", val);
+    });
+
     var pageKey = document.body.getAttribute("data-i18n-page");
     if (pageKey) {
       var pageTitle = translate("meta." + pageKey, lang);

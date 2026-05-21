@@ -91,6 +91,32 @@
     });
   }
 
+  function initCertificateLightbox() {
+    var $grid = $(".gh-cert-grid");
+    if (!$grid.length || !$.fn.magnificPopup) return;
+
+    $grid.magnificPopup({
+      delegate: "a.gh-cert-lightbox",
+      type: "image",
+      mainClass: "mfp-fade",
+      removalDelay: 160,
+      closeOnContentClick: true,
+      closeBtnInside: true,
+      fixedContentPos: true,
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1],
+      },
+      image: {
+        verticalFit: true,
+        titleSrc: function (item) {
+          return item.el.attr("title") || item.el.find("img").attr("alt") || "";
+        },
+      },
+    });
+  }
+
   function initParallaxOrbs() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
@@ -114,5 +140,6 @@
     initReveal();
     initCounters();
     initParallaxOrbs();
+    initCertificateLightbox();
   });
 })(jQuery);
