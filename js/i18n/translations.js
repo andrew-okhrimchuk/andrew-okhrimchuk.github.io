@@ -81,7 +81,12 @@ window.GH_TRANSLATIONS = {
       videoLink: "Подивіться, як ми працюємо",
       testimonialTitle: "«Просто професіонали»",
       testimonialText: "Java-розробка повноцінного вебзастосунку з контролем версій, модульними тестами, логуванням і реляційною БД.",
-      testimonialRole: "Java-розробник"
+      testimonialRole: "Java-розробник",
+      testimonial2Title: "«Надійні SAP-рішення»",
+      testimonial2Text: "Впровадження та налаштування SAP ERP/S/4HANA: модулі FI, CO, MM, SD, ABAP-розширення та супровід користувачів.",
+      testimonial2Name: "Охримчук Анастасія",
+      testimonial2Role: "SAP-розробник",
+      skillSap: "Впровадження SAP"
     },
     contact: {
       bannerTitle: "Контакти",
@@ -204,7 +209,12 @@ window.GH_TRANSLATIONS = {
       videoLink: "See how we work",
       testimonialTitle: "\"Simply professionals\"",
       testimonialText: "Full-stack Java web development with version control, modular tests, logging, and a relational database.",
-      testimonialRole: "Java developer"
+      testimonialRole: "Java developer",
+      testimonial2Title: "\"Reliable SAP solutions\"",
+      testimonial2Text: "SAP ERP/S/4HANA implementation and customization: FI, CO, MM, SD modules, ABAP extensions, and user support.",
+      testimonial2Name: "Anastasiia Okhrimchuk",
+      testimonial2Role: "SAP developer",
+      skillSap: "SAP implementation"
     },
     contact: {
       bannerTitle: "Contact",
