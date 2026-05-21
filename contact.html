@@ -95,7 +95,11 @@
             <div class="container">
                 <div class="row get_touch_inner">
                     <div class="col-lg-6">
-                        <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="contact_us_form row" action="https://formsubmit.co/a0972103356@gmail.com" method="post" id="contactForm" novalidate="novalidate">
+                            <input type="hidden" name="_subject" value="Повідомлення з сайту Okhrimchuk">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
                             <div class="form-group col-lg-6">
                                 <input type="text" class="form-control" id="name" name="name" data-i18n-placeholder="contact.name" placeholder="Ім'я">
                             </div>
@@ -147,7 +151,7 @@
                         <div class="bd-callout">
                             <h3 data-i18n="contact.officeTitle">Офіс у Києві</h3>
                             <p> <br /> <span data-i18n="contact.officeCountry">Україна</span></p>
-                            <h4><a href="#">+38097 2103356</a> <a href="#">andrey@okhrimchuk.top</a></h4>
+                            <h4><a href="tel:+380972103356">+38 097 2103356</a> <a href="mailto:a0972103356@gmail.com">a0972103356@gmail.com</a></h4>
                         </div>
                     </div>
                 </div>
@@ -232,8 +236,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <i class="fa fa-close"></i>
                         </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
+                        <h2 data-i18n="contact.formSuccessTitle">Дякуємо!</h2>
+                        <p data-i18n="contact.formSuccessText">Повідомлення надіслано. Відповімо найближчим часом.</p>
                     </div>
                 </div>
             </div>
@@ -248,8 +252,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <i class="fa fa-close"></i>
                         </button>
-                        <h2>Sorry !</h2>
-                        <p> Something went wrong </p>
+                        <h2 data-i18n="contact.formErrorTitle">Помилка</h2>
+                        <p data-i18n="contact.formErrorText">Не вдалося надіслати. Спробуйте ще раз або напишіть на a0972103356@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -291,7 +295,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 -->
 
         <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/contact.js"></script>
         

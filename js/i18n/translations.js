@@ -108,7 +108,19 @@ window.GH_TRANSLATIONS = {
       message: "Повідомлення",
       send: "Надіслати",
       officeTitle: "Офіс у Києві",
-      officeCountry: "Україна"
+      officeCountry: "Україна",
+      formSuccessTitle: "Дякуємо!",
+      formSuccessText: "Повідомлення надіслано. Відповімо найближчим часом.",
+      formErrorTitle: "Помилка",
+      formErrorText: "Не вдалося надіслати. Спробуйте ще раз або напишіть на a0972103356@gmail.com",
+      valNameRequired: "Вкажіть ім'я",
+      valNameMin: "Ім'я — щонайменше 2 символи",
+      valSubjectRequired: "Вкажіть тему",
+      valSubjectMin: "Тема — щонайменше 4 символи",
+      valEmailRequired: "Вкажіть email",
+      valEmailFormat: "Некоректний email",
+      valMessageRequired: "Напишіть повідомлення",
+      valMessageMin: "Повідомлення — щонайменше 20 символів"
     },
     pay: {
       banner1: "Вартість роботи наших front-end та back-end спеціалістів — 500 грн/годину.",
@@ -243,7 +255,19 @@ window.GH_TRANSLATIONS = {
       message: "Message",
       send: "Send",
       officeTitle: "Kyiv office",
-      officeCountry: "Ukraine"
+      officeCountry: "Ukraine",
+      formSuccessTitle: "Thank you!",
+      formSuccessText: "Your message was sent. We will reply soon.",
+      formErrorTitle: "Error",
+      formErrorText: "Could not send. Please try again or email a0972103356@gmail.com",
+      valNameRequired: "Please enter your name",
+      valNameMin: "Name must be at least 2 characters",
+      valSubjectRequired: "Please enter a subject",
+      valSubjectMin: "Subject must be at least 4 characters",
+      valEmailRequired: "Please enter your email",
+      valEmailFormat: "Invalid email address",
+      valMessageRequired: "Please enter a message",
+      valMessageMin: "Message must be at least 20 characters"
     },
     pay: {
       banner1: "Our front-end and back-end specialists charge UAH 500/hour.",
