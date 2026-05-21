@@ -9,11 +9,7 @@ PAGES = {
     "contact.html": "titleContact",
     "pay.html": "titlePay",
     "portfolio.html": "titlePortfolio",
-    "service.html": "titleService",
-    "blog.html": "titleBlog",
     "public_offer.html": "titleOffer",
-    "elements.html": "titleHome",
-    "single-blog.html": "titleBlog",
 }
 
 NAV_REPLACEMENTS = [
@@ -27,7 +23,7 @@ NAV_REPLACEMENTS = [
     (r'href="pay\.html">Оплата', 'href="pay.html" data-i18n="nav.pay">Оплата'),
     (
         r'href="public_offer\.pdf">Публічна оферта',
-        'href="public_offer.pdf" data-i18n="nav.offer">Публічна оферта',
+        'href="public_offer.html" data-i18n="nav.offer">Публічна оферта',
     ),
 ]
 
