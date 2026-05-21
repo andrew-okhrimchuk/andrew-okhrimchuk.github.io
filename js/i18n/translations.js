@@ -66,7 +66,7 @@ window.GH_TRANSLATIONS = {
       footerSubscribe: "Підписка на розсилку",
       footerEmail: "Ваша e-mail адреса",
       footerSubscribeBtn: "Підписатися",
-      footerCopyright: "Усі права захищені | Шаблон: Охримчук Андрій"
+      footerCopyright: "Усі права захищені | ФОП Охрімчук Анастасія Григорівна"
     },
     about: {
       bannerTitle: "Про нас",
@@ -211,7 +211,7 @@ window.GH_TRANSLATIONS = {
       footerSubscribe: "Newsletter",
       footerEmail: "Your e-mail address",
       footerSubscribeBtn: "Subscribe",
-      footerCopyright: "All rights reserved | Template: Andriy Okhrimchuk"
+      footerCopyright: "All rights reserved | FOP Anastasiia Okhrimchuk"
     },
     about: {
       bannerTitle: "About us",
