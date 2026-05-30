@@ -116,6 +116,25 @@ a {
   position: relative;
 }
 
+/* Variant A: readable nav on light hero; light text on fixed dark bar */
+.main_menu_area:not(.navbar_fixed) .navbar .navbar-nav li a {
+  color: var(--gh-text-soft);
+}
+
+.main_menu_area:not(.navbar_fixed) .navbar .navbar-nav li:hover a,
+.main_menu_area:not(.navbar_fixed) .navbar .navbar-nav li.active a {
+  color: var(--gh-text-main);
+}
+
+.main_menu_area.navbar_fixed .navbar .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.main_menu_area.navbar_fixed .navbar .navbar-nav li:hover a,
+.main_menu_area.navbar_fixed .navbar .navbar-nav li.active a {
+  color: #fff;
+}
+
 .main_menu_area .navbar .navbar-nav li a::after {
   content: "";
   position: absolute;
@@ -449,6 +468,12 @@ a {
 
   .main_menu_area .navbar .navbar-nav li a {
     line-height: 44px;
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .main_menu_area .navbar .navbar-nav li:hover a,
+  .main_menu_area .navbar .navbar-nav li.active a {
+    color: #fff;
   }
 
   .main_menu_area .navbar .navbar-nav li a::after {
