@@ -8,6 +8,7 @@ window.GH_TRANSLATIONS = {
       titleContact: "Контакти",
       titlePay: "Оплата",
       titlePortfolio: "Сертифікати",
+      titleDesign3d: "3D-моделювання",
       titleService: "Сервіс",
       titleBlog: "Блог",
       titleOffer: "Публічна оферта"
@@ -15,6 +16,7 @@ window.GH_TRANSLATIONS = {
     nav: {
       home: "Головна",
       about: "Про нас",
+      design3d: "3D-моделювання",
       portfolio: "Сертифікати",
       contact: "Контакти",
       pay: "Оплата",
@@ -38,6 +40,8 @@ window.GH_TRANSLATIONS = {
       f1Text: "Запуск і налаштування SAP ERP/S/4HANA під ваш бізнес: модулі FI, CO, MM, SD, ABAP-розширення, міграція даних і супровід користувачів.",
       f2Title: "Гнучкі рішення архітектури Java-додатків",
       f2Text: "Сучасні додатки: мікросервіси, Docker, REST, Java, Git, SQL, Hibernate, Maven та повний цикл розробки.",
+      f3Title: "3D-моделювання",
+      f3Text: "Корпуси, прототипи та механіка для реальних пристроїв — від задуму до готової моделі для друку.",
       more: "Детальніше",
       stat1: "років досвіду в IT",
       stat2: "успішних проєктів",
@@ -49,6 +53,7 @@ window.GH_TRANSLATIONS = {
       marquee4: "Docker та DevOps",
       marquee5: "Консультації 24/7",
       marquee6: "SAP ERP та S/4HANA",
+      marquee7: "3D-моделювання",
       stepsTag: "Як ми працюємо",
       stepsTitle: "Три кроки до",
       stepsTitleAccent: "результату",
@@ -89,7 +94,23 @@ window.GH_TRANSLATIONS = {
       testimonial2Text: "Впровадження та налаштування SAP ERP/S/4HANA: модулі FI, CO, MM, SD, ABAP-розширення та супровід користувачів.",
       testimonial2Name: "Охримчук Анастасія",
       testimonial2Role: "SAP-розробник",
-      skillSap: "Впровадження SAP"
+      skillSap: "Впровадження SAP",
+      skill3d: "3D-моделювання"
+    },
+    design3d: {
+      bannerTitle: "3D-моделювання",
+      bannerSub: "Форма, що працює",
+      lead: "Ми проєктуємо речі, які можна потримати в руках: корпуси, кріплення, збірні вузли. Від задуму до моделі для друку — спокійно, акуратно й із повагою до деталі.",
+      pillar1Title: "Задум",
+      pillar1Text: "Спочатку — логіка: як збирається, що всередині, що має бути зручним у руках і надійним у роботі.",
+      pillar2Title: "Модель",
+      pillar2Text: "Параметричне 3D-моделювання дає свободу змінювати розміри й повторювати рішення без хаосу в файлах.",
+      pillar3Title: "Друк",
+      pillar3Text: "Готуємо моделі під FDM: стінки, заусенці, посадки — щоб перша ітерація була близькою до фіналу.",
+      quote: "Краса інженерії — коли зовні легко, а всередині все на своєму місці.",
+      ctaTitle: "Маєте ідею корпусу чи прототипу?",
+      ctaText: "Розкажіть про задум — підкажемо, як перевести його в пластик і металеві кріплення.",
+      contactBtn: "Написати нам"
     },
     contact: {
       bannerTitle: "Контакти",
@@ -153,6 +174,7 @@ window.GH_TRANSLATIONS = {
       titleContact: "Contact",
       titlePay: "Payment",
       titlePortfolio: "Certificates",
+      titleDesign3d: "3D modeling",
       titleService: "Services",
       titleBlog: "Blog",
       titleOffer: "Public offer"
@@ -160,6 +182,7 @@ window.GH_TRANSLATIONS = {
     nav: {
       home: "Home",
       about: "About us",
+      design3d: "3D modeling",
       portfolio: "Certificates",
       contact: "Contact",
       pay: "Payment",
@@ -183,6 +206,8 @@ window.GH_TRANSLATIONS = {
       f1Text: "Deploy and tailor SAP ERP/S/4HANA for your business: FI, CO, MM, SD modules, ABAP extensions, data migration, and user support.",
       f2Title: "Flexible Java application architecture",
       f2Text: "Modern apps: microservices, Docker, REST, Java, Git, SQL, Hibernate, Maven, and full development lifecycle.",
+      f3Title: "3D modeling",
+      f3Text: "Enclosures, prototypes, and mechanics for real devices — from concept to a print-ready model.",
       more: "Learn more",
       stat1: "years of IT experience",
       stat2: "successful projects",
@@ -194,6 +219,7 @@ window.GH_TRANSLATIONS = {
       marquee4: "Docker & DevOps",
       marquee5: "Consulting 24/7",
       marquee6: "SAP ERP & S/4HANA",
+      marquee7: "3D modeling",
       stepsTag: "How we work",
       stepsTitle: "Three steps to",
       stepsTitleAccent: "results",
@@ -234,7 +260,23 @@ window.GH_TRANSLATIONS = {
       testimonial2Text: "SAP ERP/S/4HANA implementation and customization: FI, CO, MM, SD modules, ABAP extensions, and user support.",
       testimonial2Name: "Anastasiia Okhrimchuk",
       testimonial2Role: "SAP developer",
-      skillSap: "SAP implementation"
+      skillSap: "SAP implementation",
+      skill3d: "3D modeling"
+    },
+    design3d: {
+      bannerTitle: "3D modeling",
+      bannerSub: "Form that works",
+      lead: "We design things you can hold: enclosures, mounts, and assemblies. From idea to a print-ready model — calmly, precisely, with care for every detail.",
+      pillar1Title: "Intent",
+      pillar1Text: "First, the logic: how it assembles, what lives inside, what must feel right in the hand and stay reliable in use.",
+      pillar2Title: "Model",
+      pillar2Text: "Parametric 3D modeling lets you resize and reuse solutions without losing clarity in your files.",
+      pillar3Title: "Print",
+      pillar3Text: "We prepare models for FDM — walls, clearances, fits — so the first iteration is close to the final part.",
+      quote: "Engineering beauty is when the outside looks simple and everything inside has its place.",
+      ctaTitle: "Have an enclosure or prototype in mind?",
+      ctaText: "Tell us about it — we will help you bring it into plastic and metal hardware.",
+      contactBtn: "Get in touch"
     },
     contact: {
       bannerTitle: "Contact",
