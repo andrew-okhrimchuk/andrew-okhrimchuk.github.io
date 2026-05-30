@@ -518,6 +518,94 @@ a {
   padding-bottom: 80px;
 }
 
+.gh-design-page {
+  padding-bottom: 80px;
+}
+
+.gh-design-intro {
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--gh-text-soft);
+}
+
+.gh-design-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gh-design-card {
+  display: grid;
+  grid-template-columns: minmax(200px, 280px) 1fr;
+  gap: 2rem;
+  align-items: start;
+  background: var(--gh-surface);
+  border-radius: 20px;
+  padding: 1.75rem;
+  box-shadow: var(--gh-shadow-soft);
+}
+
+.gh-design-card-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+
+.gh-design-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gh-accent-b);
+  margin-bottom: 0.5rem;
+}
+
+.gh-design-card-body h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--gh-text-main);
+  margin-bottom: 0.75rem;
+}
+
+.gh-design-card-body p {
+  margin-bottom: 1rem;
+}
+
+.gh-design-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+}
+
+.gh-design-specs li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.45rem;
+  color: var(--gh-text-soft);
+}
+
+.gh-design-specs li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(120deg, var(--gh-accent-a), var(--gh-accent-c));
+}
+
+@media (max-width: 767px) {
+  .gh-design-card {
+    grid-template-columns: 1fr;
+  }
+}
+
 .gh-offer-doc {
   background: var(--gh-surface);
 }

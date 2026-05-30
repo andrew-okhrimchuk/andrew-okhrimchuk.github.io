@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <title>Okhrimchuk and family</title>
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/refactor-beauty.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body class="gh-live-site" data-i18n-page="titleDesign3d">
+        <header class="main_menu_area">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav.home">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html" data-i18n="nav.about">Про нас</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="design-3d.html" data-i18n="nav.design3d">3D-дизайн</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html" data-i18n="nav.portfolio">Сертифікати</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public_offer.html" data-i18n="nav.offer">Публічна оферта</a></li>
+                        <li class="nav-item gh-lang-switch" role="group" data-i18n-aria="nav.langLabel">
+                            <button type="button" class="gh-lang-btn is-active" data-lang="uk">UA</button>
+                            <button type="button" class="gh-lang-btn" data-lang="en">EN</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="banner_area">
+            <div class="container">
+                <div class="banner_inner_text">
+                    <h2 data-i18n="design3d.bannerTitle">3D-дизайн</h2>
+                    <p data-i18n="design3d.bannerSub">Параметричні моделі та друк FDM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio_area gh-design-page">
+            <div class="container">
+                <p class="gh-design-intro gh-reveal" data-i18n="design3d.intro">Проєкти корпусів і механіки: від ТЗ до STL для 3D-друку. Джерела моделей зберігаються локально; на сайті — опис і візуалізація.</p>
+                <div class="gh-design-grid">
+                    <article class="gh-design-card gh-reveal">
+                        <div class="gh-design-card-media">
+                            <img src="img/design-3d/sonde-probe.svg" alt="Схема корпусу зонда" width="320" height="420" loading="lazy" />
+                        </div>
+                        <div class="gh-design-card-body">
+                            <span class="gh-design-tag" data-i18n="design3d.sondeTag">OpenSCAD · FDM</span>
+                            <h3 data-i18n="design3d.sondeTitle">Зонд скидання з шара / дрона</h3>
+                            <p data-i18n="design3d.sondeText">Параметричний корпус Ø88 мм для ESP8266, BMP390 і блоку 3×AAA. Розбірна збірка: дві половинки корпусу, обтекатель під науковий шар Ø110 мм, кришка люка батарей.</p>
+                            <ul class="gh-design-specs">
+                                <li data-i18n="design3d.sondeSpec1">4 друковані деталі + превʼю-збірка в OpenSCAD</li>
+                                <li data-i18n="design3d.sondeSpec2">Кріплення D1 mini, BMP390, мікроперемикач, стик M3</li>
+                                <li data-i18n="design3d.sondeSpec3">Базова схема CAD зафіксована 25.05.2026 (rev h)</li>
+                            </ul>
+                            <a class="more_btn" href="contact.html" data-i18n="design3d.contactBtn">Обговорити проєкт</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footr_area">
+            <div class="footer_copyright">
+                <div class="container">
+                    <div class="float-sm-left">
+                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> <span data-i18n="index.footerCopyright">Усі права захищені | ФОП Охрімчук Анастасія Григорівна</span></h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/theme.js"></script>
+        <script src="js/i18n/translations.js"></script>
+        <script src="js/i18n/i18n.js"></script>
+        <script src="js/refactor-enhancements.js"></script>
+    </body>
+</html>

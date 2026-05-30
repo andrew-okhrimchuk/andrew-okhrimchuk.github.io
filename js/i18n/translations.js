@@ -8,6 +8,7 @@ window.GH_TRANSLATIONS = {
       titleContact: "Контакти",
       titlePay: "Оплата",
       titlePortfolio: "Сертифікати",
+      titleDesign3d: "3D-дизайн",
       titleService: "Сервіс",
       titleBlog: "Блог",
       titleOffer: "Публічна оферта"
@@ -15,6 +16,7 @@ window.GH_TRANSLATIONS = {
     nav: {
       home: "Головна",
       about: "Про нас",
+      design3d: "3D-дизайн",
       portfolio: "Сертифікати",
       contact: "Контакти",
       pay: "Оплата",
@@ -38,6 +40,8 @@ window.GH_TRANSLATIONS = {
       f1Text: "Запуск і налаштування SAP ERP/S/4HANA під ваш бізнес: модулі FI, CO, MM, SD, ABAP-розширення, міграція даних і супровід користувачів.",
       f2Title: "Гнучкі рішення архітектури Java-додатків",
       f2Text: "Сучасні додатки: мікросервіси, Docker, REST, Java, Git, SQL, Hibernate, Maven та повний цикл розробки.",
+      f3Title: "3D-дизайн і параметричні моделі",
+      f3Text: "Корпуси пристроїв у OpenSCAD: від ТЗ до STL для FDM-друку, кріплення електроніки та розбірна механіка.",
       more: "Детальніше",
       stat1: "років досвіду в IT",
       stat2: "успішних проєктів",
@@ -49,6 +53,7 @@ window.GH_TRANSLATIONS = {
       marquee4: "Docker та DevOps",
       marquee5: "Консультації 24/7",
       marquee6: "SAP ERP та S/4HANA",
+      marquee7: "3D-дизайн OpenSCAD",
       stepsTag: "Як ми працюємо",
       stepsTitle: "Три кроки до",
       stepsTitleAccent: "результату",
@@ -89,7 +94,21 @@ window.GH_TRANSLATIONS = {
       testimonial2Text: "Впровадження та налаштування SAP ERP/S/4HANA: модулі FI, CO, MM, SD, ABAP-розширення та супровід користувачів.",
       testimonial2Name: "Охримчук Анастасія",
       testimonial2Role: "SAP-розробник",
-      skillSap: "Впровадження SAP"
+      skillSap: "Впровадження SAP",
+      skill3d: "3D-дизайн (OpenSCAD)"
+    },
+    design3d: {
+      bannerTitle: "3D-дизайн",
+      bannerSub: "Параметричні моделі та друк FDM",
+      intro: "Проєкти корпусів і механіки: від ТЗ до STL для 3D-друку. Джерела моделей зберігаються локально; на сайті — опис і візуалізація.",
+      sondeImgAlt: "Схема корпусу зонда",
+      sondeTag: "OpenSCAD · FDM",
+      sondeTitle: "Зонд скидання з шара / дрона",
+      sondeText: "Параметричний корпус Ø88 мм для ESP8266, BMP390 і блоку 3×AAA. Розбірна збірка: дві половинки корпусу, обтекатель під науковий шар Ø110 мм, кришка люка батарей.",
+      sondeSpec1: "4 друковані деталі + превʼю-збірка в OpenSCAD",
+      sondeSpec2: "Кріплення D1 mini, BMP390, мікроперемикач, стик M3",
+      sondeSpec3: "Базова схема CAD зафіксована 25.05.2026 (rev h)",
+      contactBtn: "Обговорити проєкт"
     },
     contact: {
       bannerTitle: "Контакти",
@@ -153,6 +172,7 @@ window.GH_TRANSLATIONS = {
       titleContact: "Contact",
       titlePay: "Payment",
       titlePortfolio: "Certificates",
+      titleDesign3d: "3D design",
       titleService: "Services",
       titleBlog: "Blog",
       titleOffer: "Public offer"
@@ -160,6 +180,7 @@ window.GH_TRANSLATIONS = {
     nav: {
       home: "Home",
       about: "About us",
+      design3d: "3D design",
       portfolio: "Certificates",
       contact: "Contact",
       pay: "Payment",
@@ -183,6 +204,8 @@ window.GH_TRANSLATIONS = {
       f1Text: "Deploy and tailor SAP ERP/S/4HANA for your business: FI, CO, MM, SD modules, ABAP extensions, data migration, and user support.",
       f2Title: "Flexible Java application architecture",
       f2Text: "Modern apps: microservices, Docker, REST, Java, Git, SQL, Hibernate, Maven, and full development lifecycle.",
+      f3Title: "3D design & parametric CAD",
+      f3Text: "Device enclosures in OpenSCAD: from specs to FDM-ready STL, electronics mounts, and serviceable mechanics.",
       more: "Learn more",
       stat1: "years of IT experience",
       stat2: "successful projects",
@@ -194,6 +217,7 @@ window.GH_TRANSLATIONS = {
       marquee4: "Docker & DevOps",
       marquee5: "Consulting 24/7",
       marquee6: "SAP ERP & S/4HANA",
+      marquee7: "3D design · OpenSCAD",
       stepsTag: "How we work",
       stepsTitle: "Three steps to",
       stepsTitleAccent: "results",
@@ -234,7 +258,21 @@ window.GH_TRANSLATIONS = {
       testimonial2Text: "SAP ERP/S/4HANA implementation and customization: FI, CO, MM, SD modules, ABAP extensions, and user support.",
       testimonial2Name: "Anastasiia Okhrimchuk",
       testimonial2Role: "SAP developer",
-      skillSap: "SAP implementation"
+      skillSap: "SAP implementation",
+      skill3d: "3D design (OpenSCAD)"
+    },
+    design3d: {
+      bannerTitle: "3D design",
+      bannerSub: "Parametric models & FDM printing",
+      intro: "Enclosure and mechanics projects: from requirements to print-ready STL. Source models stay local; the site shows overview and visuals.",
+      sondeImgAlt: "Sonde probe enclosure schematic",
+      sondeTag: "OpenSCAD · FDM",
+      sondeTitle: "Balloon / drone drop sonde",
+      sondeText: "Parametric Ø88 mm body for ESP8266, BMP390, and 3×AAA pack. Split assembly: two body halves, fairing for Ø110 mm science sphere, AAA hatch cover.",
+      sondeSpec1: "4 printed parts + OpenSCAD preview assembly",
+      sondeSpec2: "D1 mini, BMP390, microswitch mounts; M3 joint",
+      sondeSpec3: "Baseline CAD locked 25 May 2026 (rev h)",
+      contactBtn: "Discuss a project"
     },
     contact: {
       bannerTitle: "Contact",
