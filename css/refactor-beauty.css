@@ -118,7 +118,7 @@ a {
 
 /* Variant A: readable nav on light hero; light text on fixed dark bar */
 .main_menu_area:not(.navbar_fixed) .navbar .navbar-nav li a {
-  color: var(--gh-text-soft);
+  color: color-mix(in srgb, var(--gh-text-soft) 50%, transparent);
 }
 
 .main_menu_area:not(.navbar_fixed) .navbar .navbar-nav li:hover a,
