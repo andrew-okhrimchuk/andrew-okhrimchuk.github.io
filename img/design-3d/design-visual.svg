@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 400" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d9fff"/>
+      <stop offset="100%" stop-color="#7b5cff"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ee6c5"/>
+      <stop offset="100%" stop-color="#4d9fff"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="360" height="400" fill="#eef3ff" rx="24"/>
+  <circle cx="280" cy="72" r="48" fill="url(#g2)" opacity="0.35"/>
+  <circle cx="64" cy="320" r="36" fill="url(#g1)" opacity="0.25"/>
+  <g transform="translate(180 200)" filter="url(#soft)">
+    <path d="M-70 -50 L70 -50 L90 30 L0 90 L-90 30 Z" fill="none" stroke="url(#g1)" stroke-width="2.5" opacity="0.9"/>
+    <path d="M-50 -30 L50 -30 L65 20 L0 60 L-65 20 Z" fill="url(#g1)" opacity="0.12"/>
+    <ellipse cx="0" cy="-8" rx="42" ry="18" fill="url(#g2)" opacity="0.55"/>
+    <rect x="-28" y="10" width="56" height="72" rx="28" fill="url(#g1)" opacity="0.85"/>
+    <line x1="-90" y1="0" x2="90" y2="0" stroke="#7b5cff" stroke-width="1" opacity="0.35" stroke-dasharray="6 8"/>
+    <line x1="0" y1="-70" x2="0" y2="95" stroke="#4d9fff" stroke-width="1" opacity="0.35" stroke-dasharray="6 8"/>
+  </g>
+</svg>
